@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>A</id>
+        <description>A</description>
+        <version>$version$</version>
+        <authors>A</authors>
+
+        <dependencies>
+            <group targetFramework="net6.0" />
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="$basedir$\A\$configuration$\A.dll" target="ref/net6.0" />
+
+        <file src="$basedir$\A.runtime.linux-x64\$configuration$\*" target="runtimes/linux-x64/lib/net6.0" />
+        <file src="$basedir$\A.runtime.linux-x86\$configuration$\*" target="runtimes/linux-x86/lib/net6.0" />
+        <file src="$basedir$\A.runtime.win-x64\$configuration$\*" target="runtimes/win-x64/lib/net6.0" />
+        <file src="$basedir$\A.runtime.win-x86\$configuration$\*" target="runtimes/win-x86/lib/net6.0" />
+    </files>
+</package>

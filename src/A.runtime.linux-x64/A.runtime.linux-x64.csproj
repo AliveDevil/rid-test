@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+		<RootNamespace>A</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+		<AssemblyName>A</AssemblyName>
+	</PropertyGroup>
+
+</Project>

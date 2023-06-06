@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.Build.Traversal/4.1.0">
+
+  <PropertyGroup>
+    <ProjectName>A.Traversal</ProjectName>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <RuntimeIdentifiers>win-x64;win-x86;linux-x64;linux-x86</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ref\A\A.csproj" />
+    <ProjectReference Include="..\A.runtime.linux-x64\A.runtime.linux-x64.csproj" />
+    <ProjectReference Include="..\A.runtime.linux-x86\A.runtime.linux-x86.csproj" />
+    <ProjectReference Include="..\A.runtime.win-x64\A.runtime.win-x64.csproj" />
+    <ProjectReference Include="..\A.runtime.win-x86\A.runtime.win-x86.csproj" />
+  </ItemGroup>
+
+</Project>
