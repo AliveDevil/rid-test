@@ -4,7 +4,7 @@ Test for managed runtime target libraries.
 ## Prepare
 
 ```
-dotnet build -Restore src\A\A.proj
+dotnet build -Restore src\A\A.msbuildproj
 nuget pack -Properties "Version=1.0.0.0;Configuration=(Debug|Release);BaseDir=..\artifacts\bin" .nuget\A.nuspec
 nuget push -source %NugetHome%\packages A.1.0.0.0.nupkg
 ```
